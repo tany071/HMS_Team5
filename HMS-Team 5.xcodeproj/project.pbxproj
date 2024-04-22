@@ -29,6 +29,10 @@
 		86A6B2D02BD62221005DC851 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 86A6B2CF2BD62221005DC851 /* FirebaseRemoteConfigSwift */; };
 		86A6B2D22BD62221005DC851 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 86A6B2D12BD62221005DC851 /* FirebaseStorage */; };
 		86A6B2D42BD62221005DC851 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 86A6B2D32BD62221005DC851 /* FirebaseStorageCombine-Community */; };
+		86A6B2D62BD62633005DC851 /* PatientHomeVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A6B2D52BD62633005DC851 /* PatientHomeVIew.swift */; };
+		86A6B2D82BD62686005DC851 /* Doctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A6B2D72BD62686005DC851 /* Doctors.swift */; };
+		86A6B2DA2BD62920005DC851 /* DoctorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A6B2D92BD62920005DC851 /* DoctorsViewModel.swift */; };
+		86A6B2DC2BD6313C005DC851 /* DoctorCardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A6B2DB2BD6313C005DC851 /* DoctorCardList.swift */; };
 		86F70DB82BD61A4300936E14 /* HMS_Team_5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F70DB72BD61A4300936E14 /* HMS_Team_5App.swift */; };
 		86F70DBA2BD61A4300936E14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F70DB92BD61A4300936E14 /* ContentView.swift */; };
 		86F70DBC2BD61A4400936E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F70DBB2BD61A4400936E14 /* Assets.xcassets */; };
@@ -57,6 +61,10 @@
 
 /* Begin PBXFileReference section */
 		86A6B2A92BD61F64005DC851 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		86A6B2D52BD62633005DC851 /* PatientHomeVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHomeVIew.swift; sourceTree = "<group>"; };
+		86A6B2D72BD62686005DC851 /* Doctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctors.swift; sourceTree = "<group>"; };
+		86A6B2D92BD62920005DC851 /* DoctorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsViewModel.swift; sourceTree = "<group>"; };
+		86A6B2DB2BD6313C005DC851 /* DoctorCardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCardList.swift; sourceTree = "<group>"; };
 		86F70DB42BD61A4300936E14 /* HMS-Team 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HMS-Team 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F70DB72BD61A4300936E14 /* HMS_Team_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMS_Team_5App.swift; sourceTree = "<group>"; };
 		86F70DB92BD61A4300936E14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -176,6 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				86F70DB92BD61A4300936E14 /* ContentView.swift */,
+				86A6B2D52BD62633005DC851 /* PatientHomeVIew.swift */,
+				86A6B2DB2BD6313C005DC851 /* DoctorCardList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +193,7 @@
 		86F70DE22BD61AE500936E14 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				86A6B2D72BD62686005DC851 /* Doctors.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -190,6 +201,7 @@
 		86F70DE32BD61AEF00936E14 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				86A6B2D92BD62920005DC851 /* DoctorsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -361,8 +373,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A6B2DC2BD6313C005DC851 /* DoctorCardList.swift in Sources */,
 				86F70DBA2BD61A4300936E14 /* ContentView.swift in Sources */,
 				86F70DB82BD61A4300936E14 /* HMS_Team_5App.swift in Sources */,
+				86A6B2D82BD62686005DC851 /* Doctors.swift in Sources */,
+				86A6B2DA2BD62920005DC851 /* DoctorsViewModel.swift in Sources */,
+				86A6B2D62BD62633005DC851 /* PatientHomeVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
