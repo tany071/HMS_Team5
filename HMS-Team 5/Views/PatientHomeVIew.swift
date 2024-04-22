@@ -8,11 +8,10 @@
 import SwiftUI
 
 struct PatientHomeView: View {
-    @ObservedObject var doctorsViewModel = DoctorsViewModel()
 
     var body: some View {
         NavigationView {
-            
+            DoctorCardList()
         }
     }
 }
