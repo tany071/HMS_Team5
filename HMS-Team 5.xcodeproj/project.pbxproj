@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F45CEA92BD62D48005346FA /* PrescriptionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F45CEA82BD62D48005346FA /* PrescriptionFormView.swift */; };
+		1F45CEAC2BD6312D005346FA /* DoctorAppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F45CEAB2BD6312D005346FA /* DoctorAppointmentsView.swift */; };
 		86A6B2AA2BD61F65005DC851 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86A6B2A92BD61F64005DC851 /* GoogleService-Info.plist */; };
 		86A6B2AC2BD62221005DC851 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 86A6B2AB2BD62221005DC851 /* FirebaseAnalytics */; };
 		86A6B2AE2BD62221005DC851 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 86A6B2AD2BD62221005DC851 /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -56,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F45CEA82BD62D48005346FA /* PrescriptionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionFormView.swift; sourceTree = "<group>"; };
+		1F45CEAB2BD6312D005346FA /* DoctorAppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAppointmentsView.swift; sourceTree = "<group>"; };
 		86A6B2A92BD61F64005DC851 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86F70DB42BD61A4300936E14 /* HMS-Team 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HMS-Team 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F70DB72BD61A4300936E14 /* HMS_Team_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMS_Team_5App.swift; sourceTree = "<group>"; };
@@ -115,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F45CEAA2BD630EA005346FA /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				1F45CEA82BD62D48005346FA /* PrescriptionFormView.swift */,
+				1F45CEAB2BD6312D005346FA /* DoctorAppointmentsView.swift */,
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
 		86F70DAB2BD61A4200936E14 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +188,7 @@
 		86F70DE12BD61A8C00936E14 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1F45CEAA2BD630EA005346FA /* Doctor */,
 				86F70DB92BD61A4300936E14 /* ContentView.swift */,
 			);
 			path = Views;
@@ -362,7 +376,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				86F70DBA2BD61A4300936E14 /* ContentView.swift in Sources */,
+				1F45CEA92BD62D48005346FA /* PrescriptionFormView.swift in Sources */,
 				86F70DB82BD61A4300936E14 /* HMS_Team_5App.swift in Sources */,
+				1F45CEAC2BD6312D005346FA /* DoctorAppointmentsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
