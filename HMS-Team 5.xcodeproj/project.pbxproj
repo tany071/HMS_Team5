@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		1F45CEA92BD62D48005346FA /* PrescriptionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F45CEA82BD62D48005346FA /* PrescriptionFormView.swift */; };
 		1F45CEAC2BD6312D005346FA /* DoctorAppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F45CEAB2BD6312D005346FA /* DoctorAppointmentsView.swift */; };
+		7FCD22A92BD6543D006DA51A /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD22A82BD6543D006DA51A /* AuthenticationViewModel.swift */; };
+		7FCD22AB2BD654A7006DA51A /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD22AA2BD654A7006DA51A /* AuthenticationView.swift */; };
+		7FCD22AD2BD6551A006DA51A /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD22AC2BD6551A006DA51A /* AuthenticatedView.swift */; };
+		7FCD22AF2BD655FD006DA51A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD22AE2BD655FD006DA51A /* LoginView.swift */; };
+		7FCD22B12BD6561B006DA51A /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD22B02BD6561B006DA51A /* SignupView.swift */; };
+		7FCD22B32BD6564E006DA51A /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD22B22BD6564E006DA51A /* UserProfileView.swift */; };
+		7FCD22B62BD65778006DA51A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7FCD22B52BD65778006DA51A /* FirebaseAuth */; };
+		7FCD22B82BD7A7AA006DA51A /* FavouriteNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD22B72BD7A7AA006DA51A /* FavouriteNumberView.swift */; };
+		7FCD22BC2BD7B061006DA51A /* DoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD22BB2BD7B061006DA51A /* DoctorView.swift */; };
+		7FCD22BE2BD7B23A006DA51A /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD22BD2BD7B23A006DA51A /* AdminView.swift */; };
 		86A6B2AA2BD61F65005DC851 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86A6B2A92BD61F64005DC851 /* GoogleService-Info.plist */; };
 		86A6B2AC2BD62221005DC851 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 86A6B2AB2BD62221005DC851 /* FirebaseAnalytics */; };
 		86A6B2AE2BD62221005DC851 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 86A6B2AD2BD62221005DC851 /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -60,6 +70,15 @@
 /* Begin PBXFileReference section */
 		1F45CEA82BD62D48005346FA /* PrescriptionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionFormView.swift; sourceTree = "<group>"; };
 		1F45CEAB2BD6312D005346FA /* DoctorAppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAppointmentsView.swift; sourceTree = "<group>"; };
+		7FCD22A82BD6543D006DA51A /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		7FCD22AA2BD654A7006DA51A /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		7FCD22AC2BD6551A006DA51A /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
+		7FCD22AE2BD655FD006DA51A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7FCD22B02BD6561B006DA51A /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		7FCD22B22BD6564E006DA51A /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		7FCD22B72BD7A7AA006DA51A /* FavouriteNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteNumberView.swift; sourceTree = "<group>"; };
+		7FCD22BB2BD7B061006DA51A /* DoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorView.swift; sourceTree = "<group>"; };
+		7FCD22BD2BD7B23A006DA51A /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
 		86A6B2A92BD61F64005DC851 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86F70DB42BD61A4300936E14 /* HMS-Team 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HMS-Team 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F70DB72BD61A4300936E14 /* HMS_Team_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMS_Team_5App.swift; sourceTree = "<group>"; };
@@ -85,6 +104,7 @@
 				86A6B2C62BD62221005DC851 /* FirebaseInstallations in Frameworks */,
 				86A6B2BA2BD62221005DC851 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				86A6B2AC2BD62221005DC851 /* FirebaseAnalytics in Frameworks */,
+				7FCD22B62BD65778006DA51A /* FirebaseAuth in Frameworks */,
 				86A6B2AE2BD62221005DC851 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				86A6B2B42BD62221005DC851 /* FirebaseAppCheck in Frameworks */,
 				86A6B2B22BD62221005DC851 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
@@ -128,6 +148,29 @@
 			path = Doctor;
 			sourceTree = "<group>";
 		};
+		7FCD22A72BD65426006DA51A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7FCD22A82BD6543D006DA51A /* AuthenticationViewModel.swift */,
+				7FCD22B72BD7A7AA006DA51A /* FavouriteNumberView.swift */,
+				7FCD22AA2BD654A7006DA51A /* AuthenticationView.swift */,
+				7FCD22AC2BD6551A006DA51A /* AuthenticatedView.swift */,
+				7FCD22BD2BD7B23A006DA51A /* AdminView.swift */,
+				7FCD22BB2BD7B061006DA51A /* DoctorView.swift */,
+				7FCD22AE2BD655FD006DA51A /* LoginView.swift */,
+				7FCD22B02BD6561B006DA51A /* SignupView.swift */,
+				7FCD22B22BD6564E006DA51A /* UserProfileView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		7FCD22B42BD65778006DA51A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		86F70DAB2BD61A4200936E14 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +178,7 @@
 				86F70DC72BD61A4400936E14 /* HMS-Team 5Tests */,
 				86F70DD12BD61A4400936E14 /* HMS-Team 5UITests */,
 				86F70DB52BD61A4300936E14 /* Products */,
+				7FCD22B42BD65778006DA51A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,6 +232,7 @@
 		86F70DE12BD61A8C00936E14 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7FCD22A72BD65426006DA51A /* Auth */,
 				1F45CEAA2BD630EA005346FA /* Doctor */,
 				86F70DB92BD61A4300936E14 /* ContentView.swift */,
 			);
@@ -256,6 +301,7 @@
 				86A6B2CF2BD62221005DC851 /* FirebaseRemoteConfigSwift */,
 				86A6B2D12BD62221005DC851 /* FirebaseStorage */,
 				86A6B2D32BD62221005DC851 /* FirebaseStorageCombine-Community */,
+				7FCD22B52BD65778006DA51A /* FirebaseAuth */,
 			);
 			productName = "HMS-Team 5";
 			productReference = 86F70DB42BD61A4300936E14 /* HMS-Team 5.app */;
@@ -375,9 +421,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FCD22B82BD7A7AA006DA51A /* FavouriteNumberView.swift in Sources */,
+				7FCD22B12BD6561B006DA51A /* SignupView.swift in Sources */,
 				86F70DBA2BD61A4300936E14 /* ContentView.swift in Sources */,
+				7FCD22A92BD6543D006DA51A /* AuthenticationViewModel.swift in Sources */,
+				7FCD22AB2BD654A7006DA51A /* AuthenticationView.swift in Sources */,
+				7FCD22BC2BD7B061006DA51A /* DoctorView.swift in Sources */,
+				7FCD22AD2BD6551A006DA51A /* AuthenticatedView.swift in Sources */,
+				7FCD22B32BD6564E006DA51A /* UserProfileView.swift in Sources */,
+				7FCD22BE2BD7B23A006DA51A /* AdminView.swift in Sources */,
 				1F45CEA92BD62D48005346FA /* PrescriptionFormView.swift in Sources */,
 				86F70DB82BD61A4300936E14 /* HMS_Team_5App.swift in Sources */,
+				7FCD22AF2BD655FD006DA51A /* LoginView.swift in Sources */,
 				1F45CEAC2BD6312D005346FA /* DoctorAppointmentsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -715,6 +770,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		7FCD22B52BD65778006DA51A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86F70DE52BD61CCF00936E14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
 		86A6B2AB2BD62221005DC851 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 86F70DE52BD61CCF00936E14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

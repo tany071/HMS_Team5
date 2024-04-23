@@ -8,6 +8,7 @@
 import SwiftUI
 import Firebase
 
+
 @main
 struct HMS_Team_5App: App {
     init() {
@@ -16,8 +17,27 @@ struct HMS_Team_5App: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+              NavigationView {
+                AuthenticatedView {
+                  Image(systemName: "number.circle.fill")
+                    .resizable()
+                    .frame(width: 100 , height: 100)
+                    .foregroundColor(Color(.systemPink))
+                    .aspectRatio(contentMode: .fit)
+                    .clipShape(Circle())
+                    .clipped()
+                    .padding(4)
+                    .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                  Text("Welcome to HMS!")
+                    .font(.title)
+                  Text("You need to be logged in to use this app.")
+                } content: {
+                    
+                   
+                  Spacer()
+                }
+              }
+            }
     }
 }
 
